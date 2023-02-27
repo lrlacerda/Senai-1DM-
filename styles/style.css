@@ -93,7 +93,7 @@ main p {
 .article-aside {
     border: solid 1px grey;
     height: 30%;
-    margin: 10px auto;
+    margin: 40px auto;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -109,6 +109,7 @@ main p {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    height: 100px;
 }
 
 .article-2 {
