@@ -60,12 +60,11 @@ header nav a {
     display: flex;
     justify-content: space-between;background-color: white;
     margin: 15px auto;
-
 }
 
 /* section coluna1 */
 .coluna1 {
-    width: 75%;
+    width: 80%;
     display: flex;
     flex-direction: column;
 }
@@ -85,22 +84,24 @@ main p {
 
 /* section coluna2 */
 .coluna2 {
-    width: 20%;
-    background-color: white;
-    margin: 0 auto;
+    width: 25%;
+    background-color: #edeced;
+    margin: 0;
+    padding-left: 20px;
 }
 
 .article-aside {
     border: solid 1px grey;
-    height: 30%;
-    margin: 40px auto;
+    background-color: white;
+    height: 35%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
 
 .article-aside h3 {
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin: 5px auto 10px;
 }
 
@@ -110,6 +111,7 @@ main p {
     justify-content: flex-start;
     align-items: center;
     height: 100px;
+    margin-bottom: 40px;
 }
 
 .article-2 {
@@ -117,6 +119,7 @@ main p {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .article-2 p {
