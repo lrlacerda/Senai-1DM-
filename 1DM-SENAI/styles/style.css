@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Roboto&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:wght@700&family=Montserrat&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-header {
+  background-color: #f9003d;
+  height: 60px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+nav a {
+  margin-right: 138px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
+
+.container-banner-principal {
+  background-image: url(../img/imagem-fundo-banner\ 1.png);
+  height: 740px;
+}
+
+.container-banner-principal h1 {
+  width: 60%;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 96px;
+  text-transform: uppercase;
+  margin-left: 121px;
+  padding-top: 226px;
+}
+
+.container-banner-principal hr {
+  width: 545px;
+  margin-left: 121px;
+  border-color: #F9003D;
+}
+
+.container-banner-principal h2 {
+  color: #F9003D;
+  font-family: 'Courier Prime', monospace;
+  font-size: 56px;
+  text-transform: uppercase;
+  margin-left: 121px;
+  margin-top: 45px;
+}
+
+.container-banner-principal img {
+  margin-left: 142px;
+  margin-top: 29px;
+}
+
+.container-sobreProjetos {
+  background-color: #080324;
+  color: white;
+  display: flex;
+}
+
+.container-sobreProjetos1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-sobreProjetos1 h2 {
+  width: 100%;
+  color: #F9003D;
+  font-family: "Bebas Neue", cursive;
+  font-size: 64px;
+  margin-left: 120px;
+  margin-top: 64px;
+}
+
+.container-sobreProjetos1 img {
+  width: 491px;
+  height: 476px;
+  margin-top: 205px;
+  margin-bottom: 126px;
+  margin-left: 60px;
+  margin-top: 64px;
+
+}
+
+.container-sobreProjetos2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.container-sobreProjetos2 h3 {
+  font-family: 'Courier Prime', monospace;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 205px ;
+}
