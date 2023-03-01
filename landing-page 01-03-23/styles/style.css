@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Roboto&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:wght@700&family=Montserrat&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-header {
+  background-color: #f9003d;
+  height: 60px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+nav a {
+  margin-right: 138px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
+
+.container-banner-principal {
+  background-image: url(../img/imagem-fundo-banner\ 1.png);
+  height: 740px;
+}
+
+.container-banner-principal h1 {
+  width: 60%;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 96px;
+  text-transform: uppercase;
+  margin-left: 121px;
+  padding-top: 226px;
+}
+
+.container-banner-principal hr {
+  width: 545px;
+  margin-left: 121px;
+  border-color: #F9003D;
+}
+
+.container-banner-principal h2 {
+  color: #F9003D;
+  font-family: 'Courier Prime', monospace;
+  font-size: 56px;
+  text-transform: uppercase;
+  margin-left: 121px;
+  margin-top: 45px;
+}
+
+.container-banner-principal img {
+  margin-left: 142px;
+  margin-top: 29px;
+}
+
+.container-sobreProjetos {
+  background-color: #080324;
+  color: white;
+  display: flex;
+}
+
+.container-sobreProjetos1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.container-sobreProjetos1 h2 {
+  width: 100%;
+  color: #F9003D;
+  font-family: "Bebas Neue", cursive;
+  font-size: 64px;
+  margin-left: 120px;
+  margin-top: 64px;
+}
+
+.container-sobreProjetos1 img {
+  width: 491px;
+  height: 476px;
+  margin-top: 205px;
+  margin-bottom: 126px;
+  margin-left: 60px;
+  margin-top: 64px;
+}
+
+.container-sobreProjetos2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-sobreProjetos2 h3 {
+  font-family: 'Courier Prime', monospace;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 205px;
+  margin-right: 470px;
+  margin-bottom: 18px;
+}
+
+.container-sobreProjetos2 h2 {
+  color: #FFAF00;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-left: 117px;
+  margin-right: 120px;
+  margin-bottom: 18px;
+}
+
+.container-sobreProjetos2 p {
+  font-size: 18px;
+  margin-left: 117px;
+  margin-right: 120px;
+  text-align: justify;
+}
+
+.container-local {
+  background-image: url(../img/imagem-fundo-ranking\ 2.png);
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-local .local {
+  color:#A259F7;
+  text-transform: uppercase;
+}
+
+.container-local p {
+  font-size: 24px;
+  color: white;
+}
+
+.container-local h4 {
+  border: 1px solid #A259F7;
+  width: 289px;
+  height: 100px;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.endereco {
+  background-image: url(../img/imagem-fundo-ranking\ 2.png);
+  position: relative;
+  height: 516px;
+  display: flex;
+  
+
+}
+
+.endereco h2 {
+  color: #FFAF00;
+  margin-left: 264px;
+  margin-top: 82px;
+  text-transform: uppercase;
+  font-size: 64px;
+
+}
+
+.endereco-cep {
+  background-color: #010010;
+  border: 2px solid #340B65;
+  margin-left: 264px;
+  display: flex;
+  align-items: center;
+  color: #A259F7;
+  width: 899px;
+  height: 203px;
+  font-size: 24px;
+}
+
+.endereco-cep p {
+  margin-left: 66px;
+}
+
+.endereco-mapa {
+  position: absolute;
+  right: 390px;
+  top: 75px;
+  width: 309px;
+  height: 250px;
+}
+
+footer {
+  background-color: #F9003D;
+  height: 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
