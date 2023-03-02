@@ -1,6 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Roboto&display=swap");
+@font-face {
+  font-family: "bebas neue";
+  src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:wght@700&family=Montserrat&family=Roboto&display=swap');
+@font-face {
+  font-family: "courier prime";
+  src: url(../assets/fonts/Courier_Prime/CourierPrime-Bold.ttf);
+}
+
+@font-face {
+  font-family: "open sans";
+  src: url(../assets/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
 
 * {
   margin: 0;
@@ -21,8 +32,19 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 18px;
-  font-family: "Bebas Neue", cursive;
+  font-family: bebas neue;
+  letter-spacing: 2px;
   color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+nav a:hover {
+  text-shadow: 2px 2px 10px white;
+  cursor: pointer;
+  background-color: white;
+  color: #F9003D;
+  padding: 15px 25px;
+  border-radius: 5px;
 }
 
 .container-banner-principal {
@@ -33,7 +55,7 @@ nav a {
 .container-banner-principal h1 {
   width: 60%;
   color: white;
-  font-family: "Bebas Neue", cursive;
+  font-family: bebas neue;
   font-size: 96px;
   text-transform: uppercase;
   margin-left: 121px;
@@ -48,7 +70,7 @@ nav a {
 
 .container-banner-principal h2 {
   color: #F9003D;
-  font-family: 'Courier Prime', monospace;
+  font-family: courier prime;
   font-size: 56px;
   text-transform: uppercase;
   margin-left: 121px;
@@ -76,7 +98,7 @@ nav a {
 .container-sobreProjetos1 h2 {
   width: 100%;
   color: #F9003D;
-  font-family: "Bebas Neue", cursive;
+  font-family: Bebas neue;
   font-size: 64px;
   margin-left: 120px;
   margin-top: 64px;
@@ -98,7 +120,7 @@ nav a {
 }
 
 .container-sobreProjetos2 h3 {
-  font-family: 'Courier Prime', monospace;
+  font-family: courier prime;
   font-size: 24px;
   text-transform: uppercase;
   margin-top: 205px;
@@ -138,6 +160,7 @@ nav a {
 .container-local p {
   font-size: 24px;
   color: white;
+  font-family: courier prime;
 }
 
 .container-local h4 {
@@ -145,6 +168,7 @@ nav a {
   width: 289px;
   height: 100px;
   font-size: 28px;
+  font-family: courier prime;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,8 +179,6 @@ nav a {
   position: relative;
   height: 516px;
   display: flex;
-  
-
 }
 
 .endereco h2 {
@@ -165,7 +187,7 @@ nav a {
   margin-top: 82px;
   text-transform: uppercase;
   font-size: 64px;
-
+  font-family: bebas neue;
 }
 
 .endereco-cep {
@@ -182,6 +204,7 @@ nav a {
 
 .endereco-cep p {
   margin-left: 66px;
+  font-family: courier prime;
 }
 
 .endereco-mapa {
@@ -198,6 +221,21 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer div p {
   color: white;
   font-size: 18px;
+  font-family: open sans;
+}
+
+@media (min-width: 414px) {
+  /* Style the hamburger menu */
+.topnav a .icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 }
