@@ -24,6 +24,8 @@
   box-sizing: border-box;
 }
 
+/* DESKTOP FIRST */
+
 body {
   background-color: #080324;
 }
@@ -34,6 +36,7 @@ body {
   display: flex;
   justify-content: end;
   align-items: center;
+  width: 100%;
 }
 
 nav a {
@@ -238,13 +241,16 @@ footer div p {
   font-family: var(--fontfamily-opensans);
 }
 
-@media (min-width: 414px) {
-  /* Style the hamburger menu */
-.topnav a .icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+/* MEDIA QUERIES */
+
+/* TABLETS >= 768PX 992PX */
+@media screen and (max-whidth: 991px) {
+  
 }
+
+/* SMARTPHONES >= 0 até 767 */
+@media screen and (max-whidth: 767px) {
+  
 }
+
+
