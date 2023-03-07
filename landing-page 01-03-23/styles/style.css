@@ -43,7 +43,7 @@ nav a {
   margin-right: 138px;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: var(--fontfamily-bebas-neue);
   letter-spacing: 2px;
   color: var(--color-secundario);
@@ -69,7 +69,7 @@ nav a:hover {
   width: 60%;
   color: var(--color-secundario);
   font-family: var(--fontfamily-bebas-neue);
-  font-size: 96px;
+  font-size: 6rem;
   text-transform: uppercase;
   margin-left: 121px;
   padding-top: 226px;
@@ -84,7 +84,7 @@ nav a:hover {
 .container-banner-principal h2 {
   color: var(--color-primario);
   font-family: 'Courier New', Courier, monospace;
-  font-size: 56px;
+  font-size: 3.5rem;
   text-transform: uppercase;
   margin-left: 121px;
   margin-top: 45px;
@@ -111,7 +111,7 @@ nav a:hover {
   width: 100%;
   color: var(--color-primario);
   font-family: var(--fontfamily-bebas-neue);
-  font-size: 64px;
+  font-size: 4rem;
   margin-left: 120px;
   margin-top: 64px;
 }
@@ -133,7 +133,7 @@ nav a:hover {
 
 .container-sobreProjetos2 h3 {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-transform: uppercase;
   margin-top: 205px;
   margin-right: 470px;
@@ -143,14 +143,14 @@ nav a:hover {
 .container-sobreProjetos2 h2 {
   color: #FFAF00;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-left: 117px;
   margin-right: 120px;
   margin-bottom: 18px;
 }
 
 .container-sobreProjetos2 p {
-  font-size: 18px;
+  font-size: 1.125rem;
   margin-left: 117px;
   margin-right: 120px;
   text-align: justify;
@@ -165,12 +165,12 @@ nav a:hover {
 }
 
 .container-local .local {
-  color:#A259F7;
+  color: #A259F7;
   text-transform: uppercase;
 }
 
 .container-local p {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: var(--color-secundario);
   font-family: 'Courier New', Courier, monospace;
 }
@@ -179,7 +179,7 @@ nav a:hover {
   border: 1px solid #A259F7;
   width: 289px;
   height: 100px;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   justify-content: center;
@@ -198,7 +198,7 @@ nav a:hover {
   margin-left: 264px;
   margin-top: 82px;
   text-transform: uppercase;
-  font-size: 64px;
+  font-size: 4rem;
   font-family: var(--fontfamily-bebas-neue);
 }
 
@@ -211,7 +211,7 @@ nav a:hover {
   color: #A259F7;
   width: 899px;
   height: 203px;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .endereco-cep p {
@@ -237,20 +237,35 @@ footer {
 
 footer div p {
   color: var(--color-secundario);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: var(--fontfamily-opensans);
 }
 
 /* MEDIA QUERIES */
 
-/* TABLETS >= 768PX 992PX */
-@media screen and (max-whidth: 991px) {
-  
+/* tablets >= 768px até 991px*/
+@media screen and (max-width: 991px) {}
+
+/* smartphones >= 0 até 767px */
+@media screen and (max-width: 767px) {
+
+  main {
+    display: none;
+  }
+
+  header #menu-mobile {
+    display: block;
+  }
+
+  header nav {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 80%;
+    height: calc(100% - 60px);
+    background-color: #F9003D;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
 }
-
-/* SMARTPHONES >= 0 até 767 */
-@media screen and (max-whidth: 767px) {
-  
-}
-
-
